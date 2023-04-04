@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5eb6c99b9f76fd142cb86530"
+  },
+  "item_id": 1,
+  "item_name": "Apple",
+  "item_type": "Food",
+  "item_info": "Apple",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebac0992634662d982ee5d3"
+  },
+  "item_id": 2,
+  "item_name": "TV",
+  "item_type": "furniture",
+  "item_info": "TV",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebec94cd8f09f426c245170"
+  },
+  "item_id": 3,
+  "item_name": "Orange",
+  "item_type": "Food",
+  "item_info": "Orange",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec0ec79faf74344cc273389"
+  },
+  "item_id": 4,
+  "item_name": "Dog Food",
+  "item_type": "pet",
+  "item_info": "For Dog use",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec0f0f7d39a651b8837d07c"
+  },
+  "item_id": 5,
+  "item_name": "Lego",
+  "item_type": "toy",
+  "item_info": "Lego Lego Lego",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec202058b0b5612cc3df50f"
+  },
+  "item_id": 8,
+  "item_name": "Bag",
+  "item_type": "Cloth",
+  "item_info": "ddddddddd",
+  "__v": 0
+}]

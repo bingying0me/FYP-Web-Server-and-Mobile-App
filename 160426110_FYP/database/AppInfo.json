@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5eb6cb6b74b3147220305f4b"
+  },
+  "name": "ShoPair",
+  "logo_photo": "",
+  "company": "ShoPair Comapny",
+  "phone": "23456789",
+  "email": "shopair@gmail.com",
+  "address": "Mongkok",
+  "website": "http://shopair.com",
+  "facebook": "ShoPair",
+  "ig": "ShoPair",
+  "updatedAt": {
+    "$date": "2020-05-17T08:17:17.653Z"
+  }
+}]

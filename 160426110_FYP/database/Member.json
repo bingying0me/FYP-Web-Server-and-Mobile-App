@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "5ebc1d47da95f87ba0dd3265"
+  },
+  "member_id": 0,
+  "firstname": "Apple",
+  "lastname": "Lam",
+  "gender": "F",
+  "birthdate": {
+    "$date": "2020-05-15T00:00:00Z"
+  },
+  "phone": "23456789",
+  "email": "apple@gmail.com",
+  "password": "apple",
+  "createdAt": {
+    "$date": "2020-05-13T16:16:08.001Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-17T09:43:01.035Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc1e30da95f87ba0dd3266"
+  },
+  "member_id": 0,
+  "firstname": "Orange",
+  "lastname": "Lai",
+  "gender": "M",
+  "birthdate": {
+    "$date": "2020-05-03T00:00:00Z"
+  },
+  "phone": "56789123",
+  "email": "orange@gmail.com",
+  "password": "orange",
+  "createdAt": {
+    "$date": "2020-05-13T16:20:00.258Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-13T16:20:00.258Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebc1f3dda95f87ba0dd3267"
+  },
+  "member_id": 0,
+  "firstname": "Pear",
+  "lastname": "Ho",
+  "gender": "M",
+  "birthdate": {
+    "$date": "2020-05-02T00:00:00Z"
+  },
+  "phone": "34567891",
+  "email": "pear@gmail.com",
+  "password": "pear",
+  "createdAt": {
+    "$date": "2020-05-13T16:24:29.092Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-13T16:24:29.092Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd4f28ed01d603d8d73711"
+  },
+  "member_id": 0,
+  "firstname": "Banana",
+  "lastname": "Chan",
+  "gender": "F",
+  "birthdate": {
+    "$date": "2020-04-23T00:00:00Z"
+  },
+  "phone": "91234567",
+  "email": "banana@gmail.com",
+  "password": "banana",
+  "createdAt": {
+    "$date": "2020-05-14T14:01:12.431Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-14T14:01:12.431Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd5014ed01d603d8d73714"
+  },
+  "member_id": 0,
+  "firstname": "Melon",
+  "lastname": "Po",
+  "gender": "M",
+  "birthdate": {
+    "$date": "2020-03-19T00:00:00Z"
+  },
+  "phone": "23895678",
+  "email": "melon@gmail.com",
+  "password": "melon",
+  "createdAt": {
+    "$date": "2020-05-14T14:05:08.415Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-14T14:05:08.415Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec0fba8d39a651b8837d07f"
+  },
+  "member_id": 0,
+  "firstname": "Rainbow",
+  "lastname": "Ling",
+  "gender": "F",
+  "birthdate": {
+    "$date": "2020-05-06T00:00:00Z"
+  },
+  "phone": "56728653",
+  "email": "rainbow@gmail.com",
+  "password": "rainbow",
+  "createdAt": {
+    "$date": "2020-05-17T08:54:00.031Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-17T08:54:00.031Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec200a48b0b5612cc3df50b"
+  },
+  "member_id": 0,
+  "firstname": "12312",
+  "lastname": "1231",
+  "gender": "M",
+  "birthdate": {
+    "$date": "2020-05-20T00:00:00Z"
+  },
+  "phone": "56458756",
+  "email": "a@gmail.com",
+  "password": "a",
+  "createdAt": {
+    "$date": "2020-05-18T03:27:32.542Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-18T03:27:32.542Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec2011c8b0b5612cc3df50d"
+  },
+  "member_id": 0,
+  "firstname": "12312",
+  "lastname": "1231",
+  "gender": "M",
+  "birthdate": {
+    "$date": "2020-05-20T00:00:00Z"
+  },
+  "phone": "56458756",
+  "email": "a@gmail.com",
+  "password": "a",
+  "createdAt": {
+    "$date": "2020-05-18T03:29:32.547Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-18T03:29:32.547Z"
+  },
+  "__v": 0
+}]

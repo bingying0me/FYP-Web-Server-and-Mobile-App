@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5eb6c99b9f76fd142cb86531"
+  },
+  "item_id": 1,
+  "__v": 0,
+  "address": "BOSE STORE",
+  "address_map": "International Finance Center, 8 Finance St, Central",
+  "list_id": 1,
+  "price": 1900
+},{
+  "_id": {
+    "$oid": "5eb6cc3a4b08156bd86ee87e"
+  },
+  "item_id": 1,
+  "address": "Broadway:",
+  "address_map": "G/F-3/F, 79 Argyle Street, Mong Kok",
+  "price": 120,
+  "__v": 0,
+  "list_id": 2
+},{
+  "_id": {
+    "$oid": "5ec1017dd39a651b8837d080"
+  },
+  "item_id": 1,
+  "address": "Hong Kong store",
+  "address_map": "North Point",
+  "price": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec108a96fb96043a8c705bf"
+  },
+  "item_id": 2,
+  "list_id": null,
+  "address": "TV shop",
+  "address_map": "Kwun Tong",
+  "price": 50,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec201178b0b5612cc3df50c"
+  },
+  "item_id": 1,
+  "address": "12121",
+  "address_map": "121212",
+  "price": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec2018f8b0b5612cc3df50e"
+  },
+  "item_id": 1,
+  "address": "12121",
+  "address_map": "121212",
+  "price": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec202058b0b5612cc3df510"
+  },
+  "item_id": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec202078b0b5612cc3df512"
+  },
+  "item_id": 1,
+  "address": "12121",
+  "address_map": "121212",
+  "price": 10,
+  "__v": 0
+}]
