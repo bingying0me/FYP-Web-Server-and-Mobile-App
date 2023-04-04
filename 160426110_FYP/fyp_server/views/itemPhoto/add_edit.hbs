@@ -1,0 +1,98 @@
+<head>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "../addStyle.css"/>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "../menu.css"/>
+</head>
+<div class="row">
+    <div class="column1">
+        <div class="dashboard">
+            <img src="../logo2.png" alt="logo">
+            <br>
+            <div class='swanky_wrapper'>
+                <label for='Dashboard'>
+                    <span><a  href="/dashboard">Dashboard</a></span>
+                </label>
+                <label for='Member'>
+                    <span><a  href="/member/list">Member</a></span>
+                </label>
+                <input id='Item' name='radio' type='radio'>
+                <label for='Item'>
+                    <span>Item</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li><a  href="/item">Create</a></li>
+                            <li><a  href="/item/list">List</a></li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Item Info' name='radio' type='radio'>
+                <label for='Item Info'>
+                    <span>Item Info</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li><a  href="/itemInfo">Create</a></li>
+                            <li><a  href="/itemInfo/list">List</a></li>
+                        </ul>
+                    </div>
+                </label>
+<!--                <input id='Item Photo' name='radio' type='radio'>-->
+<!--                <label for='Item Photo'>-->
+<!--                    <span>Item Photo</span>-->
+<!--                    <div class='lil_arrow'></div>-->
+<!--                    <div class='bar'></div>-->
+<!--                    <div class='swanky_wrapper__content'>-->
+<!--                        <ul>-->
+<!--                            <li><a  href="/itemPhoto">Create</a></li>-->
+<!--                            <li><a  href="/itemPhoto/list">List</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </label>-->
+                <label for='Staff'>
+                    <span><a  href="/staff/list">Staff</a></span>
+                </label>
+<!--                <label for='Slider'>-->
+<!--                    <span><a  href="/slider/list">Slider</a></span>-->
+<!--                </label>-->
+                <label for='AppInfo'>
+                    <span><a  href="/appInfo/list">App Info</a></span>
+                </label>
+                <label for='Logout'>
+                    <span><a  href="/login">Logout</a></span>
+                </label>
+            </div>
+        </div>
+</div>
+<div class="column2">
+<h3>{{viewTitle}}</h3>
+<form action="/itemPhoto" method="POST" autocomplete="off">
+<input type="hidden" name="_id" value="{{itemPhoto._id}}">
+	<div class="form-group">
+		Item_ID:<br>
+		<input type="numbers" class= "form-control" name="item_id" placeholder = "Item_ID" value="{{itemPhoto.item_id}}" required="required" pattern="{1,20}">
+		<br>
+	</div>
+	<div class="form-group">
+		Photo ID:<br>
+		<input type="numbers" class= "form-control" name="photo_id" placeholder = "Photo_ID" value="{{itemPhoto.photo_id}}" required="required" pattern="{1,20}">
+		<br>
+	</div>
+	<div class="form-group">
+        Photo:<br>
+        <input type="file" class= "form-control" name="photo" placeholder = "Photo" value="{{itemPhoto.photo}}" required="required">
+		<br><br>
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-info"><i class="fa fa-database"></i>Submit</button>
+		<button type="reset" value="Reset" class= "btn btn-info">Reset</button>
+		<button type="view" class="btn btn-info"><a  href="/itemPhoto/list"><i class="fa fa-list-alt"></i>View All</a> </button>
+	</div>
+</form>
+</div>
+</div>

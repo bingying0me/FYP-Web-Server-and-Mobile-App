@@ -1,0 +1,124 @@
+<head>
+	<link rel = "stylesheet"
+   type = "text/css"
+   href = "../addStyle.css" />
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "../menu.css"/>
+</head>
+<div class="row">
+    <div class="column1">
+        <div class="dashboard">
+            <img src="../logo2.png" alt="logo">
+            <br>
+            <div class='swanky_wrapper'>
+                <label for='Dashboard'>
+                    <span><a  href="/dashboard">Dashboard</a></span>
+                </label>
+                <label for='Member'>
+                    <span><a  href="/member/list">Member</a></span>
+                </label>
+                <input id='Item' name='radio' type='radio'>
+                <label for='Item'>
+                    <span>Item</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li><a  href="/item">Create</a></li>
+                            <li><a  href="/item/list">List</a></li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Item Info' name='radio' type='radio'>
+                <label for='Item Info'>
+                    <span>Item Info</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li><a  href="/itemInfo">Create</a></li>
+                            <li><a  href="/itemInfo/list">List</a></li>
+                        </ul>
+                    </div>
+                </label>
+<!--                <input id='Item Photo' name='radio' type='radio'>-->
+<!--                <label for='Item Photo'>-->
+<!--                    <span>Item Photo</span>-->
+<!--                    <div class='lil_arrow'></div>-->
+<!--                    <div class='bar'></div>-->
+<!--                    <div class='swanky_wrapper__content'>-->
+<!--                        <ul>-->
+<!--                            <li><a  href="/itemPhoto">Create</a></li>-->
+<!--                            <li><a  href="/itemPhoto/list">List</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </label>-->
+                <label for='Staff'>
+                    <span><a  href="/staff/list">Staff</a></span>
+                </label>
+<!--                <label for='Slider'>-->
+<!--                    <span><a  href="/slider/list">Slider</a></span>-->
+<!--                </label>-->
+                <label for='AppInfo'>
+                    <span><a  href="/appInfo/list">App Info</a></span>
+                </label>
+                <label for='Logout'>
+                    <span><a  href="/login">Logout</a></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="column2">
+<h3>{{viewTitle}}</h3>
+<form action="/member" method="POST" autocomplete="off">
+<input type="hidden" name="_id" value="{{member._id}}">
+	<div class="form-group">
+		Member_ID:<br>
+		<input type="numbers" class= "form-control" name="member_id" placeholder = "Member_ID" value="{{member.member_id}}" required="required" pattern="{1,20}">
+		<br>
+	</div>
+	<div class="form-group">
+		First name:<br>
+		<input type="text" class= "form-control" name="firstname" placeholder = "First Name" value="{{member.firstname}}" required="required" pattern="[A-z]{1,20}" title="Please enter the name of not more than 20 words.">
+		<br>
+	</div>
+	<div class="form-group">
+		Last name:<br>
+		<input type="text" class= "form-control" name="lastname"  placeholder = "Last Name" value="{{member.lastname}}" required="required" pattern="[A-z]{1,20}" title="Please enter the name of not more than 20 words.">
+		<br>
+	</div>
+	<div class="form-group">
+		Gender:<br>
+		<INPUT style="width:5%; display: inline-block; " TYPE="Radio" class= "form-control" Name="gender" placeholder = "Gender" value="{{member.gender}}" Value="Male" Checked>Male <br>
+		<INPUT style="width:5%; display: inline-block; margin-bottom: 45px;" TYPE="Radio" class= "form-control" Name="gender" placeholder = "Gender" value="{{member.gender}}" Value="Female">Female
+		<br>
+	</div>
+	<div class="form-group">
+		Date of Birth:<br>
+		<input type="date" class= "form-control" name="birthdate" placeholder = "Birth" value="{{member.birthdate}}">
+		<br>
+	</div>
+	<div class="form-group">
+		Phone No.:<br>
+		<input type="text" class= "form-control" name="phone" value="{{member.phone}}" placeholder = "Phone" pattern="[0-9]{8}" title="Please enter the phone no. of not more than 8 numbers.">
+		<br>
+	</div>
+	<div class="form-group">
+		Email:<br>
+		<input type="email" class= "form-control" name="email" value="{{member.email}}" placeholder = "Email" pattern="[A-z0-9@.]{1,100}" title="Please enter the email of not more than 50 strings.">
+		<br><br>
+	</div>
+    <div class="form-group">
+        Password:<br>
+        <input type="text" class= "form-control" name="password" value="{{member.password}}" placeholder = "Password">
+        <br><br>
+    </div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-info"><i class="fa fa-database"></i>Submit</button>
+		<button type="reset" value="Reset" class= "btn btn-info">Reset</button>
+		<button type="view" class="btn btn-info"><a  href="/member/list"><i class="fa fa-list-alt"></i>View All</a> </button>
+	</div>
+</form>
+    </div>
+</div>
